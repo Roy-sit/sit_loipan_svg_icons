@@ -1,0 +1,62 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+/* Logo 1 */
+#logo_1 {
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#logo_1 svg:hover {
+  animation: spin 1s linear infinite;
+}
+
+/* Logo 2 */
+#logo_2 {
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+#logo_2 svg:hover {
+  background-color: red;
+  border-bottom: 30px solid green;
+}
+
+/* Logo 3 */
+#logo_3 {
+  width: 220px;
+  margin-bottom: 100px;
+}
+
+#logo_3 svg:hover {
+  animation: scaleAnimation 1s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
