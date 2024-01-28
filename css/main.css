@@ -39,7 +39,7 @@ body {
 
 /* Logo 3 */
 #logo_3 {
-  width: 220px;
+  width: 250px;
   margin-bottom: 100px;
 }
 
@@ -60,3 +60,81 @@ body {
     transform: scale(1.2);
   }
 }
+
+/* Logo 4 */
+#logo_4 {
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+#logo_4:hover #chips .st04 {
+  animation: colorFlash 1.7s infinite;
+}
+  
+  @keyframes colorFlash {
+    0% {
+      fill: #06c0f9;
+    }
+    25% {
+      fill: #f2f60b;
+    }
+    50% {
+      fill: #e608cc; 
+    }
+    75% {
+      fill: #05db09;
+    }
+    100% {
+      fill: #311F7F; 
+    }
+  }
+
+  /* Logo 5 */
+#logo_5 {
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+#logo_5 svg:hover {
+  animation: moveAndSpin 2s linear infinite;
+}
+
+@keyframes moveAndSpin {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  25% {
+    transform: translate(120px, 120px) rotate(90deg);
+  }
+  50% {
+    transform: translate(0, 100px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-150px, 150px) rotate(270deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+  /* Logo 6 */
+  #logo_6 {
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  #logo_6 svg:hover {
+    animation: logoAnimation 2s infinite;
+  }
+
+  @keyframes logoAnimation {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0;
+      transform: scale(2);
+    }
+  }
+  
