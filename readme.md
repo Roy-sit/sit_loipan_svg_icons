@@ -6,6 +6,6 @@
 
 ##### Techniques Use:
 <p> - Created 6 logos design in AI.
-<p> - Used "section" tag to organizing and styling each logo independently in CSS.
+<p> - Used "section" tag to organizing and styling each logo independently in CSS. Tagging option includes: inline and img in html.
 <p> - Added :hover animations with "transform" / "transition" / "keyframe" / "opacity" / "scale" / "rotate".
 <p> - Applied console.log; when clicked an element with ID will be shown. 

@@ -43,7 +43,7 @@ body {
   margin-bottom: 100px;
 }
 
-#logo_3 svg:hover {
+#logo_3:hover img {
   animation: scaleAnimation 1s infinite alternate;
 }
 
@@ -95,7 +95,7 @@ body {
   margin-bottom: 100px;
 }
 
-#logo_5 svg:hover {
+#logo_5:hover img {
   animation: moveAndSpin 2s linear infinite;
 }
 
@@ -123,7 +123,7 @@ body {
     margin-bottom: 100px;
   }
 
-  #logo_6 svg:hover {
+  #logo_6:hover img {
     animation: logoAnimation 2s infinite;
   }
 

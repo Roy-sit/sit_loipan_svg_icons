@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Logo.3
 document.addEventListener('DOMContentLoaded', function () {
-  const svgElement = document.getElementById('burple_x5F_3');
+  const svgElement = document.getElementById('logo_3');
   svgElement.addEventListener('click', function (event) {
     const clickedElementId = event.currentTarget.id;
     console.log(`Clicked on element with ID: ${clickedElementId}`);
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Logo.5
 document.addEventListener('DOMContentLoaded', function () {
-  const svgElement = document.getElementById('burple_x5F_5');
+  const svgElement = document.getElementById('logo_5');
   svgElement.addEventListener('click', function (event) {
     const clickedElementId = event.currentTarget.id;
     console.log(`Clicked on element with ID: ${clickedElementId}`);
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Logo.6
 document.addEventListener('DOMContentLoaded', function () {
-  const svgElement = document.getElementById('burple_x5F_6');
+  const svgElement = document.getElementById('logo_6');
   svgElement.addEventListener('click', function (event) {
     const clickedElementId = event.currentTarget.id;
     console.log(`Clicked on element with ID: ${clickedElementId}`);
